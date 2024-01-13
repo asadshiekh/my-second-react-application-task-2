@@ -73,6 +73,7 @@
     border-radius: 218px;
     background: #4D2C5E;
     color: white;
+    border: none;
 }
 
 
@@ -169,7 +170,6 @@
 
   .servics{
     background-color: #FDF8EE;
-    margin-bottom: 50px;
   }
 
   .servics .service_container{
@@ -215,4 +215,155 @@
     font-weight: 500;
     line-height: 28px; /* 186.667% */
     padding-bottom: 0;
-  }
+}
+
+  .tracks{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.tracks .sec_heading{
+    text-align: center;
+}
+
+.tracks .sec_heading h2{
+    color: #000;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 70px */
+    text-transform: capitalize;
+}
+
+.tracks .sec_heading p{
+    text-align: center;
+    color: #8A8A8A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.wrapper_services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.single_track{
+    padding: 8px;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.10);
+    margin-right: 10px;
+}
+
+
+.single_track:last-child{
+    margin-right: 0;
+}
+
+.single_track .image_wrapper{
+    width: 355px;
+
+}
+
+.single_track .image_wrapper img{
+    width:100%;
+    border-radius: 14px;
+}
+
+.track_content .track_rating{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 0 5px;
+}
+
+.track_content .track_rating span{
+    color: #ACACAC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.track_content .track_rating .star img{
+    width: 12px;
+    margin-left: 2px;
+}
+
+.track_content .track_price{
+    padding: 5px 5px 0 5px;
+}
+
+.track_content  .track_price h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.track_content  .track_price p{
+    color: #FF7426;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.border_dotted{
+    border: 1px dotted lightgray;
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    width: 345px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tracks_features{
+    list-style: none;
+    margin-top: 10px;
+    display: block;
+}
+
+.tracks_features li{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.tracks_features li img{
+    width: 13px;
+}
+
+.tracks_features li span{
+    color: #ACACAC;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left:5px;
+}
+
+.btn_wrapper{
+    text-align: center;
+}
+.track_btn{
+    border-radius: 96px;
+    background: #FF7426;
+    padding: 10px 30px;
+    border: none;
+    color: #fff;
+    translate: 0 24px;
+}
+
