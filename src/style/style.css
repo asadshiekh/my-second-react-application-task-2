@@ -220,7 +220,7 @@
   .tracks{
     padding-top: 50px;
     padding-bottom: 50px;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -269,7 +269,7 @@
 }
 
 .single_track .image_wrapper{
-    width: 355px;
+    width: 375px;
 
 }
 
