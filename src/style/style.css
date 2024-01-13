@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    padding:0;
+    margin: 0;
+}
+
+.header{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img{
+    width: 100px;
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+
+.header .logo span{
+    color: #1D1D1D;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%; /* 32.4px */
+    display: inline-block;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.header .navlink {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .navlink ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.header .navlink ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header .navlink ul li a{
+    text-decoration: none;
+    color: #1D1D1D;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header .navlink button{
+    padding: 10px 30px;
+    border-radius: 218px;
+    background: #4D2C5E;
+    color: white;
+}
+
+
+.banner{
+    background: url(../assets/banner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.banner .banner_wrapper{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+.banner .banner_wrapper .left_section {
+    width: 94%;
+    margin: auto;
+}
+
+.banner .banner_wrapper .left_section h1{
+    color: #000;
+    font-family: Roboto;
+    font-size:64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 93.15px */
+}
+
+.banner .banner_wrapper .left_section h1 span{
+    color: #FF7426;  
+}
+
+.banner .banner_wrapper .left_section p{
+    color: #8A8A8A;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171%; /* 34.2px */
+    
+}
+
+
+.banner .right_section{
+    width: 600px;
+    padding-left: 50px;
+}
+
+.banner .right_section img{
+    width: 100%;
+}
+
+
+.groupInput {
+    position: relative;
+    margin-top: 30px;
+  }
+
+  /* Style for the input field */
+.groupInput .input-field {
+    padding: 17px 0px 17px 40px;
+    width: 80%;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    border: none;
+  }
+
+  /* Style for the icon */
+ .groupInput .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+
+  /* Style for the button */
+.groupInput  .input-button {
+    position: absolute;
+    top: 50%;
+    right: 68px;
+    transform: translateY(-50%);
+    padding: 12px 24px;
+    border-radius: 100px;
+    background: #4D2C5E;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
+
+  .servics{
+    background-color: #FDF8EE;
+    margin-bottom: 50px;
+  }
+
+  .servics .service_container{
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 7px;
+    background: #4D2C5E;
+    padding: 100px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .service_block{
+    display: flex;
+    align-items: center;
+  }
+
+  .service_block .image_wrapper{
+        border-radius: 23px;
+        background: rgba(255, 255, 255, 0.20);
+        padding: 20px;
+  }
+
+  .service_block .text_wrapper{
+    margin-left: 20px;
+  }
+
+ .service_block .text_wrapper h2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+
+ .service_block .text_wrapper p{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 186.667% */
+    padding-bottom: 0;
+  }
